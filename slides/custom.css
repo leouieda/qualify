@@ -1,7 +1,6 @@
 body {
-    background-color: #111111;
+    background-color: #ededed;
 }
-
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -10,29 +9,30 @@ body {
 .reveal ol {
     font-family: "sans-serif";
 }
-
 .reveal p {
-    color: #ededed;
-    font-size: 30px;
+    font-size: 35px;
 }
 .reveal h1 {
-    color: #fffec9;
     font-size: 50px;
-    line-height: 80px;
+    line-height: 70px;
     text-transform: uppercase;
 }
-.reveal h2, h3 {
-    color: #ededed;
+.reveal h2 {
+    font-size: 45px;
+    text-transform: uppercase;
 }
-.reveal ul, ol {
-    color: #ededed;
+.reveal h3 {
+    font-size: 40px;
 }
-div.output_area pre {
-    color: white;
-}
-div.output_stderr {
-    background: #F00;
-}
-.reveal table th, .reveal table td {
-    color: white;
-}
+/*.reveal ul, ol {*/
+    /*color: #ededed;*/
+/*}*/
+/*div.output_area pre {*/
+    /*color: white;*/
+/*}*/
+/*div.output_stderr {*/
+    /*background: #F00;*/
+/*}*/
+/*.reveal table th, .reveal table td {*/
+    /*color: white;*/
+/*}*/
