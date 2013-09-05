@@ -1,10 +1,11 @@
 SLIDESDIR=slides
-SLIDES=$(SLIDESDIR)/index.html
+SLIDESNAME=index.html
+SLIDES=$(SLIDESDIR)/$(SLIDESNAME)
 
-$(SLIDES): qualificacao.ipynb $(SLIDESDIR)/custom.css
-	ipython nbconvert --to slides --stdout $< > $@
+$(SLIDES): mkslides.py qualificacao.ipynb $(SLIDESDIR)/custom.css
+	python $<
 
 serve: $(SLIDES)
-	firefox http://localhost:8000/$(SLIDES)?theme=night?transition=none &
-	python -m SimpleHTTPServer 8000
+	firefox http://localhost:8000/$(SLIDESAME)?theme=night &
+	cd $(SLIDESDIR); python -m SimpleHTTPServer 8000
 
