@@ -6,6 +6,6 @@ $(SLIDES): mkslides.py qualificacao.ipynb $(SLIDESDIR)/custom.css
 	python $<
 
 serve: $(SLIDES)
-	firefox http://localhost:8000/$(SLIDESAME)?theme=night &
+	firefox http://localhost:8000/$(SLIDESAME) &
 	cd $(SLIDESDIR); python -m SimpleHTTPServer 8000
 
