@@ -24,9 +24,10 @@ body {
 .reveal h3 {
     font-size: 40px;
 }
-/*.reveal ul, ol {*/
-    /*color: #ededed;*/
-/*}*/
+.reveal ul, ol {
+    font-size: 35px;
+    line-height: 55px;
+}
 /*div.output_area pre {*/
     /*color: white;*/
 /*}*/
