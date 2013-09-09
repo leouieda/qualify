@@ -24,7 +24,7 @@ body {
 .reveal h3 {
     font-size: 40px;
 }
-.reveal ul, ol {
+.reveal ul, .reveal ol {
     font-size: 35px;
     line-height: 55px;
 }
