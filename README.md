@@ -7,4 +7,4 @@ for my PhD qualification exam.
 
 Apresentação para meu exame de qualificação de doutorado no Observatório Nacional.
 
-Slides at [SpeakerDeck]().
+Slides at [SpeakerDeck](https://speakerdeck.com/leouieda/modelagem-gravimetrica-em-coordenadas-esfericas).
